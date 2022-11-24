@@ -6,6 +6,7 @@ Why use jspg ? .. Why not ? !!!
 
 Usage:
 comandi: sign|enc|sign-enc|verify|dec|help
+
 default: file jspg
 
 sign: firma un file. crea file.jspg
