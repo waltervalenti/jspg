@@ -14,7 +14,7 @@ enc:  cifra un file. crea file.jspg
 
 sign-enc: firma e cifra un file. crea crea file.jspg
 
-verify: verifica le firme in file.jspg
+verify: verifica le firme in file.jspg - se cifrato richide la password
 
 dec: decifra file.jspg e crea file
 

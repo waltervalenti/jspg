@@ -180,12 +180,13 @@ class Jspg:
                 print(sign.fpr, c.get_key(sign.fpr).uids[0].uid)
                 
     def help(self):
-        print("sign: firma un file. crea file.jspg")
-        print("enc:  cifra un file. crea file.jspg")
-        print("sign-enc: firma e cifra un file. crea crea file.jspg")
-        print("verify: verifica le firme in file.jspg")
-        print("dec: decifra file.jspg e crea file")
-        print("file.jspg: azione di default. prova decifrare e vefificare le firme se presenti")
+        print("sign:\t\tfirma un file. crea file.jspg")
+        print("enc:\t\tcifra un file. crea file.jspg")
+        print("sign-enc:\tfirma e cifra un file. crea file.jspg")
+        print("verify:\t\tverifica le firme in file.jspg - se cifrato richide la password")
+        print("dec:\t\tdecifra file.jspg e crea file")
+        print("file.jspg:\tazione di default. prova decifrare e vefificare le firme se presenti")
+        print()
         print("in tutti i casi, se un file esiste già, viene creato un nuovo file con .NUM nel nome")
         
         
