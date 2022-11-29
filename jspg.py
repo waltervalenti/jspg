@@ -81,7 +81,7 @@ class Jspg:
             state = True
             self.help()
         if state == False:
-            print(f"comando \"{cmd}\" sconosciuto")
+            print(f"\"{cmd}\": file non valido o comando sconosciuto")
 
     def sign(self, id_keys, input_file):
         with open(input_file, "rb") as f:
